@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-bool huiwen(string), AB(string), flag1 = 1, flag2 = 1;
+bool huiwen(s), AB(s), flag1 = 1, flag2 = 1;
 int maxday(int, int);
 
 int main(){
-    string s, s1, s2;
+    s s, s1, s2;
     cin >> s;
     int year = stoi(s.substr(0, 4));//!
     int month = stoi(s.substr(4,2));
@@ -40,7 +40,7 @@ int main(){
     return 0;
 }
 
-bool huiwen(string s)
+bool huiwen(s s)
 {
     for (int i = 0; i < s.size(); i++)
         // cout<<s[i]<<' '<<s[s.size()-i-1]<<endl;
@@ -49,7 +49,7 @@ bool huiwen(string s)
     return 1;
 }
 
-bool AB(string s){
+bool AB(s s){
     if (s[0] == s[2] && s[2] == s[5] && s[5] == s[7] &&
         s[1] == s[3] && s[3] == s[4] && s[4] == s[6])
         return 1;

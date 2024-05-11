@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    string s, new_s = "", insert_s = "";//获取的字符串，要转化的字符串初始化为空，放6的字符串
+    s s, new_s = "", insert_s = "";//获取的字符串，要转化的字符串初始化为空，放6的字符串
     getline(cin, s);//整行字符串读入
     for (int i = 0;i < s.size();i++) {//遍历原来的字符串以获取它的所有字符
         if (s[i] == '6')//是6就放入放6的字符串中

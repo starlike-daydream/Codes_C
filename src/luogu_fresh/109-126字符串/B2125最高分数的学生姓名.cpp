@@ -2,7 +2,7 @@
 using namespace std;
 struct info{
     int score;
-    string name;
+    s name;
 } infos[105];
 
 int main(){

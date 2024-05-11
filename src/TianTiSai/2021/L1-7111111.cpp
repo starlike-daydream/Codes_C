@@ -6,7 +6,7 @@ int main() {
     ll l, ans, n;
     ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
     cin >> n;
-    string s = "1";
+    s s = "1";
     for (;;s += "1") {
         l = stoll(s);
         if (l % n == 0) {

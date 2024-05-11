@@ -2,7 +2,7 @@
 using namespace std;
 int n, sum;
 double tem;
-string name;
+s name;
 bool cough, is_patient(double, bool);
 int main(){
     cin >> n;

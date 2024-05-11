@@ -3,7 +3,7 @@ using namespace std;
 int flag[30];//计算a-z（对应位置0-25）字符出现次数
 
 int main(){
-    string s;//要进行查找的字符串
+    s s;//要进行查找的字符串
     cin >> s;
     for (int i = 0; i < s.length(); i++){//遍历字符串
         flag[(s[i] - 'a')]++;//该字符减去字符a的ASCII码得到结果0-25对应a-z26个字母，为其计数加一

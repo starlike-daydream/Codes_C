@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int n,m,k;
-    string x;
+    s x;
     cin>>n>>x>>m>>k;
     if(k==n)
         cout<<"mei you mai "<<x<<" de";

@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    string s;
+    s s;
     int k, count = 1;
     cin >> k >> s;
     char c = s[0];

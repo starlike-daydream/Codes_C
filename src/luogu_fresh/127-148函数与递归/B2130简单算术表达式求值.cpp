@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    string s, n1 = "", n2 = "";
+    s s, n1 = "", n2 = "";
     cin >> s;
     char c;
     int index = 0;

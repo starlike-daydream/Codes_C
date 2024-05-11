@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     double door;//用来判定出两条 DNA 序列是否相关的阈值
-    string s1,s2;//两条DNA序列的字符串
+    s s1,s2;//两条DNA序列的字符串
     int similarity = 0;//计算两条DNA序列对应位置相同字符个数
     cin>>door>>s1>>s2;
     for (int i = 0; i < s1.length(); i++){//遍历DNA序列1

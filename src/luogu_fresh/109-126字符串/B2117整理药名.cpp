@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n;
     cin >> n;
-    string s;
+    s s;
     for (int i = 0; i < n; i++){
         cin >> s;
         if (s[0] >= 97 && s[0] <= 122)

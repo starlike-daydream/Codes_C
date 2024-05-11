@@ -2,7 +2,7 @@
 #define ll long long;
 #define IOS ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
 using namespace std;
-string to_bin(int), s;
+s to_bin(int), s;
 
 int main() {
     int n, a, b, sum_a = 0, sum_b = 0;
@@ -24,8 +24,8 @@ int main() {
     return 0;
 }
 
-string to_bin(int n) {
-    string bin = "";
+s to_bin(int n) {
+    s bin = "";
     while (n) {
         bin = to_string(n % 2) + bin;
         n /= 2;

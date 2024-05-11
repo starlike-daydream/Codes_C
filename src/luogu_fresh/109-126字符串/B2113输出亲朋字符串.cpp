@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    string s;//
+    s s;//
     cin >> s;
     for (int i = 0; i < s.size() - 1; i++)
         cout << (char)int(s[i] + s[i + 1]);

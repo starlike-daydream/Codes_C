@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef struct {
-    string id;
+    s id;
     int score;
 }team;
 team teams[1005];
@@ -9,7 +9,7 @@ team teams[1005];
 int main() {
     ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     int n, num, idx = 0;
-    string s, t_id;
+    s s, t_id;
     bool flag;
     cin >> n;
     for (int i = 0;i < n;i++) {
@@ -41,7 +41,7 @@ int main() {
         for (int j = i + 1;j < idx;j++) {
             if(teams[i].score<teams[j].score){
                 int temp1=teams[i].score;
-                string temp2=teams[i].id;
+                s temp2=teams[i].id;
                 teams[i].score=teams[j].score;
                 teams[i].id=teams[j].id;
                 teams[j].score=temp1;

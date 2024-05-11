@@ -5,7 +5,7 @@ int main() {
     int n;
     char c;
     cin >> n;
-    string s, walk;
+    s s, walk;
     for (int i = 0;i < n;i++) {
         walk = "";
         int x = 0, y = 0, direct = 0;

@@ -20,7 +20,7 @@ bool is_sushu(int n){
 }
 
 bool is_huiwen(int n){
-    string s = to_string(n);
+    s s = to_string(n);
     for (int i = 0; i < s.size()/2; i++)
         if(s[i] != s[s.size()-i-1])
             return 0;

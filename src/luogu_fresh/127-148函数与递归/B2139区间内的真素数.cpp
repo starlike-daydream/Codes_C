@@ -6,7 +6,7 @@ int reverse(int);
 
 int main(){
     cin>>m>>n;
-    string s="";
+    s s="";
     for(int i=m;i<=n;i++)
         if(sushu(i)&&sushu(reverse(i))){
             if(s!="")
@@ -27,7 +27,7 @@ bool sushu(int x){
 } 
 
 int reverse(int n){
-    string s=to_string(n);
+    s s=to_string(n);
     reverse(s.begin(),s.end());
     return stoi(s);
 }

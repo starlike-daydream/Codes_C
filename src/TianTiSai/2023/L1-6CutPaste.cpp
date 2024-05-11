@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    string s, cut, front, back;
+    s s, cut, front, back;
     int n, a, b, index;
     cin >> s >> n;
     for (int i = 0;i < n;i++) {
@@ -14,7 +14,7 @@ int main() {
         // cout<<s<<endl;
         index = s.find(front + back);
         // cout<<index_f<<" "<<index_b<<endl;
-        if (index != int(string::npos))
+        if (index != int(s::npos))
             s.insert(index + front.size(), cut);
         else
             s.append(cut);

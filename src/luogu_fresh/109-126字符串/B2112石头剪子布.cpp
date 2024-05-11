@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int N;//N，表示一共进行了 N 次游戏
-    string p1,p2,r="Rock",s="Scissors",p="Paper";//表示游戏参与者Player1,Player2的选择以及石头剪刀布字符串变量表示
+    s p1,p2,r="Rock",s="Scissors",p="Paper";//表示游戏参与者Player1,Player2的选择以及石头剪刀布字符串变量表示
     cin>>N;
     for (int i = 0; i < N; i++){//N次猜拳
         cin>>p1>>p2;

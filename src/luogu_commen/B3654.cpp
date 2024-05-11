@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-string s, ss[510], sum="";
+s s, ss[510], sum="";
 
 int main(){
     int idx =0;

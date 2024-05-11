@@ -4,7 +4,7 @@
 using namespace std;
 //进制转换
 int main(){
-    string s = "",c = "0123456789ABCDEF";
+    s s = "",c = "0123456789ABCDEF";
     int x,m,mod;
     cin>>x>>m;
     while (x > 0)
